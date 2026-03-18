@@ -2340,7 +2340,7 @@ func ApiSharingToStructs(in *api.WillShare) *structs.WillShare {
 	}
 	return &structs.WillShare{
 		Enabled: in.Enabled,
-		GpuUid:  in.GpuUid,
+		GpuId:   in.GpuId,
 	}
 
 }
