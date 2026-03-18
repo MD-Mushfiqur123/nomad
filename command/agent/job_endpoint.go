@@ -1632,6 +1632,7 @@ func ApiResourcesToStructs(in *api.Resources) *structs.Resources {
 				Count:       *d.Count,
 				Constraints: ApiConstraintsToStructs(d.Constraints),
 				Affinities:  ApiAffinitiesToStructs(d.Affinities),
+				WillShare:   ApiSharingToStructs(d.WillShare),
 			})
 		}
 	}
@@ -2331,4 +2332,15 @@ func validateEvalPriorityOpt(priority int) HTTPCodedError {
 		return CodedError(400, "Eval priority must be between 1 and 100 inclusively")
 	}
 	return nil
+}
+
+func ApiSharingToStructs(in *api.WillShare) *structs.WillShare {
+	if in == nil {
+		return nil
+	}
+	return &structs.WillShare{
+		Enabled: in.Enabled,
+		GpuUid:  in.GpuUid,
+	}
+
 }
