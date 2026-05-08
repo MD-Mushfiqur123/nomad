@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 // This package provides a mechanism to build the Docker driver plugin as an
@@ -14,10 +14,10 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/nomad/drivers/docker"
-	"github.com/hashicorp/nomad/drivers/docker/docklog"
-	"github.com/hashicorp/nomad/plugins"
-	"github.com/hashicorp/nomad/plugins/base"
+	"github.com/hashicorp/nomad/v2/drivers/docker"
+	"github.com/hashicorp/nomad/v2/drivers/docker/docklog"
+	"github.com/hashicorp/nomad/v2/plugins"
+	"github.com/hashicorp/nomad/v2/plugins/base"
 )
 
 func main() {

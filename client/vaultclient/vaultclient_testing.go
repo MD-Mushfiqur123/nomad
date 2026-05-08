@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package vaultclient
@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hashicorp/nomad/helper/uuid"
+	"github.com/hashicorp/nomad/v2/helper/uuid"
 )
 
 // MockVaultClient is used for testing the vaultclient integration and is safe

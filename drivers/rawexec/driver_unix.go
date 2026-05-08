@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build !windows
@@ -8,8 +8,8 @@ package rawexec
 import (
 	"fmt"
 
-	"github.com/hashicorp/nomad/helper/users"
-	"github.com/hashicorp/nomad/plugins/drivers"
+	"github.com/hashicorp/nomad/v2/helper/users"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
 )
 
 func (d *Driver) Validate(cfg drivers.TaskConfig) error {

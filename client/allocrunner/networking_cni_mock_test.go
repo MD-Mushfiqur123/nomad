@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package allocrunner
@@ -10,7 +10,7 @@ import (
 
 	"github.com/containerd/go-cni"
 	"github.com/containernetworking/cni/pkg/types"
-	"github.com/hashicorp/nomad/testutil"
+	"github.com/hashicorp/nomad/v2/testutil"
 )
 
 var _ cni.CNI = &mockCNIPlugin{}

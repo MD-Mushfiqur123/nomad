@@ -1,13 +1,13 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package getter
 
 import (
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/nomad/client/config"
-	"github.com/hashicorp/nomad/client/interfaces"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/client/config"
+	"github.com/hashicorp/nomad/v2/client/interfaces"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 )
 
 // New creates a Sandbox with the given ArtifactConfig.

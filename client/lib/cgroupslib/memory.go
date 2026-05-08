@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build linux
@@ -8,7 +8,7 @@ package cgroupslib
 import (
 	"sync"
 
-	"github.com/hashicorp/nomad/helper/pointer"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
 )
 
 var (

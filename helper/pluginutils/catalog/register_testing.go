@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build !release
@@ -6,7 +6,7 @@
 
 package catalog
 
-import "github.com/hashicorp/nomad/drivers/mock"
+import "github.com/hashicorp/nomad/v2/drivers/mock"
 
 // Register the mock driver with the builtin driver plugin catalog. All builtin
 // plugins that are intended for production use should be registered in

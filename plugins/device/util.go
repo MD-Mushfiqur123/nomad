@@ -1,12 +1,12 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package device
 
 import (
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hashicorp/nomad/plugins/device/proto"
-	"github.com/hashicorp/nomad/plugins/shared/structs"
+	"github.com/hashicorp/nomad/v2/plugins/device/proto"
+	"github.com/hashicorp/nomad/v2/plugins/shared/structs"
 )
 
 // convertProtoDeviceGroups converts between a list of proto and structs DeviceGroup

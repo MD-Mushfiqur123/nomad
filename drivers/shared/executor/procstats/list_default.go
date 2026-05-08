@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !windows
@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-set/v3"
-	"github.com/hashicorp/nomad/lib/lang"
+	"github.com/hashicorp/nomad/v2/lib/lang"
 	"github.com/shirou/gopsutil/v3/process"
 )
 

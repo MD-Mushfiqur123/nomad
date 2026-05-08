@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package dynamic_host_volumes
@@ -11,9 +11,9 @@ import (
 
 	"github.com/hashicorp/nomad/api"
 	nomadapi "github.com/hashicorp/nomad/api"
-	"github.com/hashicorp/nomad/e2e/e2eutil"
-	"github.com/hashicorp/nomad/e2e/v3/jobs3"
-	"github.com/hashicorp/nomad/e2e/v3/volumes3"
+	"github.com/hashicorp/nomad/v2/e2e/e2eutil"
+	"github.com/hashicorp/nomad/v2/e2e/v3/jobs3"
+	"github.com/hashicorp/nomad/v2/e2e/v3/volumes3"
 	"github.com/shoenig/test"
 	"github.com/shoenig/test/must"
 	"github.com/shoenig/test/wait"

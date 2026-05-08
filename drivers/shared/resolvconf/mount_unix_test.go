@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !windows
@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/nomad/lib/resolvconf"
+	"github.com/hashicorp/nomad/v2/lib/resolvconf"
 	"github.com/shoenig/test/must"
 )
 

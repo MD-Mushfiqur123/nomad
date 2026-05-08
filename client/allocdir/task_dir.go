@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package allocdir
@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/go-set/v3"
-	"github.com/hashicorp/nomad/helper/users/dynamic"
-	"github.com/hashicorp/nomad/plugins/drivers/fsisolation"
+	"github.com/hashicorp/nomad/v2/helper/users/dynamic"
+	"github.com/hashicorp/nomad/v2/plugins/drivers/fsisolation"
 )
 
 const (

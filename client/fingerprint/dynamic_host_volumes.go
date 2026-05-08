@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package fingerprint
@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	hvm "github.com/hashicorp/nomad/client/hostvolumemanager"
-	"github.com/hashicorp/nomad/helper"
+	hvm "github.com/hashicorp/nomad/v2/client/hostvolumemanager"
+	"github.com/hashicorp/nomad/v2/helper"
 )
 
 func NewPluginsHostVolumeFingerprint(logger hclog.Logger) Fingerprint {

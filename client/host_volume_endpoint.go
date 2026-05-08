@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package client
@@ -8,7 +8,7 @@ import (
 	"time"
 
 	metrics "github.com/hashicorp/go-metrics/compat"
-	cstructs "github.com/hashicorp/nomad/client/structs"
+	cstructs "github.com/hashicorp/nomad/v2/client/structs"
 )
 
 type HostVolume struct {

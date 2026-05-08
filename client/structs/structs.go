@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package structs
@@ -9,9 +9,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/hashicorp/nomad/client/hoststats"
-	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/nomad/plugins/device"
+	"github.com/hashicorp/nomad/v2/client/hoststats"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	"github.com/hashicorp/nomad/v2/plugins/device"
 )
 
 // RpcError is used for serializing errors with a potential error code

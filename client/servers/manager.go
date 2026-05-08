@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 // Package servers provides an interface for choosing Servers to communicate
@@ -15,7 +15,7 @@ import (
 	"time"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/nomad/helper"
+	"github.com/hashicorp/nomad/v2/helper"
 )
 
 const (

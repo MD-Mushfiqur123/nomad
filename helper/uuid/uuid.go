@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package uuid
@@ -6,7 +6,7 @@ package uuid
 import (
 	"fmt"
 
-	"github.com/hashicorp/nomad/helper/crypto"
+	"github.com/hashicorp/nomad/v2/helper/crypto"
 )
 
 // Generate is used to generate a random UUID.

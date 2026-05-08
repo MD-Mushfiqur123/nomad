@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build !windows
@@ -17,9 +17,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hashicorp/nomad/ci"
-	ctestutil "github.com/hashicorp/nomad/client/testutil"
-	"github.com/hashicorp/nomad/helper/testlog"
+	"github.com/hashicorp/nomad/v2/ci"
+	ctestutil "github.com/hashicorp/nomad/v2/client/testutil"
+	"github.com/hashicorp/nomad/v2/helper/testlog"
 	"github.com/shoenig/test/must"
 )
 

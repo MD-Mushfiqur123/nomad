@@ -1,12 +1,12 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package proclib
 
 import (
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/nomad/client/lib/idset"
-	"github.com/hashicorp/nomad/client/lib/numalib/hw"
+	"github.com/hashicorp/nomad/v2/client/lib/idset"
+	"github.com/hashicorp/nomad/v2/client/lib/numalib/hw"
 )
 
 // Configs is used to pass along values from client configuration that are

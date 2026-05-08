@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package executor
@@ -14,11 +14,11 @@ import (
 	"github.com/LK4D4/joincontext"
 	"github.com/golang/protobuf/ptypes"
 	hclog "github.com/hashicorp/go-hclog"
-	cstructs "github.com/hashicorp/nomad/client/structs"
-	"github.com/hashicorp/nomad/drivers/shared/executor/proto"
-	"github.com/hashicorp/nomad/helper/pluginutils/grpcutils"
-	"github.com/hashicorp/nomad/plugins/drivers"
-	dproto "github.com/hashicorp/nomad/plugins/drivers/proto"
+	cstructs "github.com/hashicorp/nomad/v2/client/structs"
+	"github.com/hashicorp/nomad/v2/drivers/shared/executor/proto"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/grpcutils"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
+	dproto "github.com/hashicorp/nomad/v2/plugins/drivers/proto"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

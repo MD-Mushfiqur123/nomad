@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build !ent
@@ -9,8 +9,8 @@ package nomad
 import (
 	autopilot "github.com/hashicorp/raft-autopilot"
 
-	"github.com/hashicorp/nomad/nomad/peers"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/nomad/peers"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 )
 
 func (s *Server) autopilotPromoter() autopilot.Promoter {

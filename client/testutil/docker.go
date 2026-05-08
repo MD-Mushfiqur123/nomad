@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package testutil
@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hashicorp/nomad/testutil"
+	"github.com/hashicorp/nomad/v2/testutil"
 	docker "github.com/moby/moby/client"
 )
 

@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package device
@@ -11,7 +11,7 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/hashicorp/nomad/plugins/device/proto"
+	"github.com/hashicorp/nomad/v2/plugins/device/proto"
 )
 
 // devicePluginServer wraps a device plugin and exposes it via gRPC.

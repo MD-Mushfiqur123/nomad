@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package scheduler_system
@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/nomad/api"
-	"github.com/hashicorp/nomad/e2e/v3/cluster3"
-	"github.com/hashicorp/nomad/e2e/v3/jobs3"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/e2e/v3/cluster3"
+	"github.com/hashicorp/nomad/v2/e2e/v3/jobs3"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 	"github.com/shoenig/test/must"
 )
 

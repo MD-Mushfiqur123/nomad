@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package vaultsecrets
@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	e2e "github.com/hashicorp/nomad/e2e/e2eutil"
-	"github.com/hashicorp/nomad/e2e/v3/cluster3"
-	"github.com/hashicorp/nomad/e2e/v3/jobs3"
-	"github.com/hashicorp/nomad/e2e/v3/namespaces3"
-	"github.com/hashicorp/nomad/helper/uuid"
+	e2e "github.com/hashicorp/nomad/v2/e2e/e2eutil"
+	"github.com/hashicorp/nomad/v2/e2e/v3/cluster3"
+	"github.com/hashicorp/nomad/v2/e2e/v3/jobs3"
+	"github.com/hashicorp/nomad/v2/e2e/v3/namespaces3"
+	"github.com/hashicorp/nomad/v2/helper/uuid"
 	"github.com/shoenig/test"
 	"github.com/shoenig/test/must"
 	"github.com/shoenig/test/wait"

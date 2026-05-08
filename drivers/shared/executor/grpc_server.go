@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package executor
@@ -13,10 +13,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/nomad/drivers/shared/executor/proto"
-	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/nomad/plugins/drivers"
-	sproto "github.com/hashicorp/nomad/plugins/shared/structs/proto"
+	"github.com/hashicorp/nomad/v2/drivers/shared/executor/proto"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
+	sproto "github.com/hashicorp/nomad/v2/plugins/shared/structs/proto"
 )
 
 type grpcExecutorServer struct {

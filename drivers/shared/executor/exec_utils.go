@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package executor
@@ -13,8 +13,8 @@ import (
 	"syscall"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/nomad/plugins/drivers"
-	dproto "github.com/hashicorp/nomad/plugins/drivers/proto"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
+	dproto "github.com/hashicorp/nomad/v2/plugins/drivers/proto"
 )
 
 // execHelper is a convenient wrapper for starting and executing commands, and handling their output

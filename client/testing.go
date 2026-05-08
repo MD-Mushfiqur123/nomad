@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package client
@@ -10,16 +10,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/nomad/client/config"
-	"github.com/hashicorp/nomad/client/fingerprint"
-	"github.com/hashicorp/nomad/client/servers"
-	"github.com/hashicorp/nomad/client/serviceregistration/mock"
-	"github.com/hashicorp/nomad/client/state"
-	agentconsul "github.com/hashicorp/nomad/command/agent/consul"
-	"github.com/hashicorp/nomad/helper/pluginutils/catalog"
-	"github.com/hashicorp/nomad/helper/pluginutils/singleton"
-	"github.com/hashicorp/nomad/helper/pool"
-	"github.com/hashicorp/nomad/helper/testlog"
+	"github.com/hashicorp/nomad/v2/client/config"
+	"github.com/hashicorp/nomad/v2/client/fingerprint"
+	"github.com/hashicorp/nomad/v2/client/servers"
+	"github.com/hashicorp/nomad/v2/client/serviceregistration/mock"
+	"github.com/hashicorp/nomad/v2/client/state"
+	agentconsul "github.com/hashicorp/nomad/v2/command/agent/consul"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/catalog"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/singleton"
+	"github.com/hashicorp/nomad/v2/helper/pool"
+	"github.com/hashicorp/nomad/v2/helper/testlog"
 	"github.com/hashicorp/yamux"
 	"github.com/shoenig/test/must"
 )

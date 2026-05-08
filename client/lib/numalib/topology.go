@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 // Package numalib provides information regarding the system NUMA, CPU, and
@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/hashicorp/nomad/client/lib/cpustats"
-	"github.com/hashicorp/nomad/client/lib/idset"
-	"github.com/hashicorp/nomad/client/lib/numalib/hw"
+	"github.com/hashicorp/nomad/v2/client/lib/cpustats"
+	"github.com/hashicorp/nomad/v2/client/lib/idset"
+	"github.com/hashicorp/nomad/v2/client/lib/numalib/hw"
 )
 
 // CoreGrade describes whether a specific core is a performance or efficiency

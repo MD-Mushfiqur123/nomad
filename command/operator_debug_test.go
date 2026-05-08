@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package command
@@ -19,14 +19,14 @@ import (
 	consulapi "github.com/hashicorp/consul/api"
 	consultest "github.com/hashicorp/consul/sdk/testutil"
 	"github.com/hashicorp/nomad/api"
-	"github.com/hashicorp/nomad/ci"
-	clienttest "github.com/hashicorp/nomad/client/testutil"
-	"github.com/hashicorp/nomad/command/agent"
-	mon "github.com/hashicorp/nomad/command/agent/monitor"
-	"github.com/hashicorp/nomad/helper"
-	"github.com/hashicorp/nomad/helper/pointer"
-	"github.com/hashicorp/nomad/nomad/state"
-	"github.com/hashicorp/nomad/testutil"
+	"github.com/hashicorp/nomad/v2/ci"
+	clienttest "github.com/hashicorp/nomad/v2/client/testutil"
+	"github.com/hashicorp/nomad/v2/command/agent"
+	mon "github.com/hashicorp/nomad/v2/command/agent/monitor"
+	"github.com/hashicorp/nomad/v2/helper"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
+	"github.com/hashicorp/nomad/v2/nomad/state"
+	"github.com/hashicorp/nomad/v2/testutil"
 	"github.com/shoenig/test/must"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

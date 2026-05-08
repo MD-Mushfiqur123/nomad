@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package config
@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/hashicorp/nomad/helper/pointer"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
 )
 
 // UIConfig contains the operator configuration of the web UI

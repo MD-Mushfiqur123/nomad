@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package jobspec2
@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/ext/dynblock"
 	"github.com/hashicorp/nomad/api"
-	"github.com/hashicorp/nomad/jobspec2/hclutil"
+	"github.com/hashicorp/nomad/v2/jobspec2/hclutil"
 	"github.com/zclconf/go-cty/cty"
 )
 

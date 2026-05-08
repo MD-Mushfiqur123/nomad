@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package client
@@ -8,12 +8,12 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hashicorp/nomad/ci"
-	hvm "github.com/hashicorp/nomad/client/hostvolumemanager"
-	"github.com/hashicorp/nomad/client/state"
-	cstructs "github.com/hashicorp/nomad/client/structs"
-	"github.com/hashicorp/nomad/helper/testlog"
-	"github.com/hashicorp/nomad/helper/uuid"
+	"github.com/hashicorp/nomad/v2/ci"
+	hvm "github.com/hashicorp/nomad/v2/client/hostvolumemanager"
+	"github.com/hashicorp/nomad/v2/client/state"
+	cstructs "github.com/hashicorp/nomad/v2/client/structs"
+	"github.com/hashicorp/nomad/v2/helper/testlog"
+	"github.com/hashicorp/nomad/v2/helper/uuid"
 	"github.com/shoenig/test/must"
 )
 

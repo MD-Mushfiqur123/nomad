@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package hclutils_test
@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/nomad/drivers/docker"
-	"github.com/hashicorp/nomad/helper/pluginutils/hclspecutils"
-	"github.com/hashicorp/nomad/helper/pluginutils/hclutils"
-	"github.com/hashicorp/nomad/plugins/drivers"
-	"github.com/hashicorp/nomad/plugins/shared/hclspec"
+	"github.com/hashicorp/nomad/v2/drivers/docker"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/hclspecutils"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/hclutils"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
+	"github.com/hashicorp/nomad/v2/plugins/shared/hclspec"
 	"github.com/kr/pretty"
 	"github.com/stretchr/testify/require"
 	"github.com/zclconf/go-cty/cty"

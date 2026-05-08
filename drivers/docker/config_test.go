@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package docker
@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/nomad/ci"
-	"github.com/hashicorp/nomad/helper/pluginutils/hclutils"
-	"github.com/hashicorp/nomad/plugins/drivers"
+	"github.com/hashicorp/nomad/v2/ci"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/hclutils"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
 	"github.com/shoenig/test/must"
 	"github.com/stretchr/testify/require"
 )

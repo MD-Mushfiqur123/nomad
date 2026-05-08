@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package nomad
@@ -11,11 +11,11 @@ import (
 
 	"github.com/hashicorp/go-msgpack/v2/codec"
 
-	"github.com/hashicorp/nomad/acl"
-	"github.com/hashicorp/nomad/helper/pointer"
-	"github.com/hashicorp/nomad/nomad/peers"
-	"github.com/hashicorp/nomad/nomad/stream"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/acl"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
+	"github.com/hashicorp/nomad/v2/nomad/peers"
+	"github.com/hashicorp/nomad/v2/nomad/stream"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 )
 
 type Event struct {

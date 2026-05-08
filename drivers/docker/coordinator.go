@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package docker
@@ -14,7 +14,7 @@ import (
 
 	"github.com/containerd/errdefs"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 	"github.com/moby/moby/api/types/registry"
 	mclient "github.com/moby/moby/client"
 )

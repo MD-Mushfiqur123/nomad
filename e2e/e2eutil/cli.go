@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package e2eutil
@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/nomad/e2e/v3/util3"
+	"github.com/hashicorp/nomad/v2/e2e/v3/util3"
 
 	"github.com/shoenig/test"
 	"github.com/shoenig/test/must"

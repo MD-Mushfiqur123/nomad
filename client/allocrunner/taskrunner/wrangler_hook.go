@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package taskrunner
@@ -7,9 +7,9 @@ import (
 	"context"
 
 	"github.com/hashicorp/go-hclog"
-	ifs "github.com/hashicorp/nomad/client/allocrunner/interfaces"
-	cifs "github.com/hashicorp/nomad/client/interfaces"
-	"github.com/hashicorp/nomad/client/lib/proclib"
+	ifs "github.com/hashicorp/nomad/v2/client/allocrunner/interfaces"
+	cifs "github.com/hashicorp/nomad/v2/client/interfaces"
+	"github.com/hashicorp/nomad/v2/client/lib/proclib"
 )
 
 const (

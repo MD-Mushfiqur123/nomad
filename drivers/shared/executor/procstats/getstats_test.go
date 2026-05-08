@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package procstats
@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-set/v3"
-	"github.com/hashicorp/nomad/client/lib/cpustats"
+	"github.com/hashicorp/nomad/v2/client/lib/cpustats"
 	"github.com/shoenig/test/must"
 )
 

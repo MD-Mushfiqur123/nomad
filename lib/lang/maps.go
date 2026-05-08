@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package lang
@@ -7,7 +7,7 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/hashicorp/nomad/helper/pointer"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
 )
 
 // MapKeys will return a slice of keys of m in no particular order.

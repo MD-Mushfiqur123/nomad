@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package config
@@ -13,8 +13,8 @@ import (
 	consul "github.com/hashicorp/consul/api"
 	"github.com/hashicorp/go-secure-stdlib/listenerutil"
 
-	"github.com/hashicorp/nomad/helper/pointer"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 )
 
 // ConsulConfig contains the configuration information necessary to

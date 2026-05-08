@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package secrets
@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hashicorp/nomad/client/commonplugins"
+	"github.com/hashicorp/nomad/v2/client/commonplugins"
 	"github.com/shoenig/test/must"
 	"github.com/stretchr/testify/mock"
 )

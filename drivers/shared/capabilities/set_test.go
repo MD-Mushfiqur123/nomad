@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package capabilities
@@ -6,7 +6,7 @@ package capabilities
 import (
 	"testing"
 
-	"github.com/hashicorp/nomad/ci"
+	"github.com/hashicorp/nomad/v2/ci"
 	"github.com/stretchr/testify/require"
 )
 

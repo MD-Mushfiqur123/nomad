@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package config
@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"github.com/hashicorp/nomad/nomad/structs/config"
+	"github.com/hashicorp/nomad/v2/nomad/structs/config"
 )
 
 // ArtifactConfig is the internal readonly copy of the client agent's

@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package command
@@ -30,9 +30,9 @@ import (
 	goversion "github.com/hashicorp/go-version"
 	"github.com/hashicorp/nomad/api"
 	"github.com/hashicorp/nomad/api/contexts"
-	"github.com/hashicorp/nomad/helper"
-	"github.com/hashicorp/nomad/helper/escapingfs"
-	"github.com/hashicorp/nomad/version"
+	"github.com/hashicorp/nomad/v2/helper"
+	"github.com/hashicorp/nomad/v2/helper/escapingfs"
+	"github.com/hashicorp/nomad/v2/version"
 	"github.com/posener/complete"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

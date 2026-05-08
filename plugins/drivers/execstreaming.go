@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package drivers
@@ -9,7 +9,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/hashicorp/nomad/plugins/drivers/proto"
+	"github.com/hashicorp/nomad/v2/plugins/drivers/proto"
 )
 
 // StreamToExecOptions is a convenience method to convert exec stream into

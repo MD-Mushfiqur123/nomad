@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package client
@@ -6,9 +6,9 @@ package client
 import (
 	"testing"
 
-	"github.com/hashicorp/nomad/ci"
-	"github.com/hashicorp/nomad/client/serviceregistration/nsd"
-	"github.com/hashicorp/nomad/client/widmgr"
+	"github.com/hashicorp/nomad/v2/ci"
+	"github.com/hashicorp/nomad/v2/client/serviceregistration/nsd"
+	"github.com/hashicorp/nomad/v2/client/widmgr"
 	"github.com/shoenig/test/must"
 )
 

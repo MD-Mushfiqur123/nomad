@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package base
@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/nomad/plugins/base/proto"
+	"github.com/hashicorp/nomad/v2/plugins/base/proto"
 )
 
 // basePluginServer wraps a base plugin and exposes it via gRPC.

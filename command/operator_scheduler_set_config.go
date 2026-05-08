@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package command
@@ -9,7 +9,7 @@ import (
 
 	"github.com/hashicorp/cli"
 	"github.com/hashicorp/nomad/api"
-	flagHelper "github.com/hashicorp/nomad/helper/flags"
+	flagHelper "github.com/hashicorp/nomad/v2/helper/flags"
 	"github.com/posener/complete"
 )
 

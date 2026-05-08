@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package scheduler
@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/nomad/scheduler/structs"
+	"github.com/hashicorp/nomad/v2/scheduler/structs"
 )
 
 const (

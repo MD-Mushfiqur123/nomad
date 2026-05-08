@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package docklog
@@ -10,8 +10,8 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/nomad/drivers/docker/docklog/proto"
-	"github.com/hashicorp/nomad/plugins/base"
+	"github.com/hashicorp/nomad/v2/drivers/docker/docklog/proto"
+	"github.com/hashicorp/nomad/v2/plugins/base"
 	"google.golang.org/grpc"
 )
 

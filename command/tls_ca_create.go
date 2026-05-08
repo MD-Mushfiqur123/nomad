@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package command
@@ -9,9 +9,9 @@ import (
 
 	"github.com/posener/complete"
 
-	"github.com/hashicorp/nomad/helper/flags"
-	"github.com/hashicorp/nomad/helper/tlsutil"
-	"github.com/hashicorp/nomad/lib/file"
+	"github.com/hashicorp/nomad/v2/helper/flags"
+	"github.com/hashicorp/nomad/v2/helper/tlsutil"
+	"github.com/hashicorp/nomad/v2/lib/file"
 )
 
 type TLSCACreateCommand struct {

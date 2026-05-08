@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build linux
@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hashicorp/nomad/helper/testlog"
+	"github.com/hashicorp/nomad/v2/helper/testlog"
 	"github.com/shoenig/test/must"
 	"golang.org/x/sys/unix"
 )

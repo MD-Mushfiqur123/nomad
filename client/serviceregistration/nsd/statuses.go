@@ -1,10 +1,10 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package nsd
 
 import (
-	"github.com/hashicorp/nomad/client/serviceregistration/checks/checkstore"
+	"github.com/hashicorp/nomad/v2/client/serviceregistration/checks/checkstore"
 )
 
 func NewStatusGetter(shim checkstore.Shim) *StatusGetter {

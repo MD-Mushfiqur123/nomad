@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package users
@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/nomad/lib/lang"
+	"github.com/hashicorp/nomad/v2/lib/lang"
 	"oss.indeed.com/go/libtime"
 )
 

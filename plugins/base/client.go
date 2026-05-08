@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package base
@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/nomad/helper/pluginutils/grpcutils"
-	"github.com/hashicorp/nomad/plugins/base/proto"
-	"github.com/hashicorp/nomad/plugins/shared/hclspec"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/grpcutils"
+	"github.com/hashicorp/nomad/v2/plugins/base/proto"
+	"github.com/hashicorp/nomad/v2/plugins/shared/hclspec"
 )
 
 // BasePluginClient implements the client side of a remote base plugin, using

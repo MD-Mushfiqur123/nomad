@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package wrapper
@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/nomad/client/serviceregistration"
-	regMock "github.com/hashicorp/nomad/client/serviceregistration/mock"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/client/serviceregistration"
+	regMock "github.com/hashicorp/nomad/v2/client/serviceregistration/mock"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package structs
@@ -10,7 +10,7 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/nomad/helper"
+	"github.com/hashicorp/nomad/v2/helper"
 )
 
 // ConsulConfigEntries represents Consul ConfigEntry definitions from a job for

@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package useragent
@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/hashicorp/nomad/version"
+	"github.com/hashicorp/nomad/v2/version"
 )
 
 const (

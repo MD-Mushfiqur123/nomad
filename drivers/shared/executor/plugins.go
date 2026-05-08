@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package executor
@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/nomad/client/lib/cpustats"
+	"github.com/hashicorp/nomad/v2/client/lib/cpustats"
 )
 
 // ExecutorConfig is the config that Nomad passes to the executor

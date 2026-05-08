@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package command
@@ -14,8 +14,8 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	"github.com/hashicorp/go-msgpack/v2/codec"
-	"github.com/hashicorp/nomad/helper/snapshot"
-	"github.com/hashicorp/nomad/nomad"
+	"github.com/hashicorp/nomad/v2/helper/snapshot"
+	"github.com/hashicorp/nomad/v2/nomad"
 	"github.com/hashicorp/raft"
 	"github.com/posener/complete"
 )

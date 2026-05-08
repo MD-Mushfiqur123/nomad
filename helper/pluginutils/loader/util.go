@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package loader
@@ -6,7 +6,7 @@ package loader
 import (
 	"strings"
 
-	"github.com/hashicorp/nomad/nomad/structs/config"
+	"github.com/hashicorp/nomad/v2/nomad/structs/config"
 )
 
 // configMap returns a mapping of plugin binary name to config.

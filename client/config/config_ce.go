@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build !ent
@@ -7,7 +7,7 @@ package config
 
 import (
 	"github.com/hashicorp/go-hclog"
-	structsc "github.com/hashicorp/nomad/nomad/structs/config"
+	structsc "github.com/hashicorp/nomad/v2/nomad/structs/config"
 )
 
 // GetVaultConfigs returns the set of Vault configurations available for this

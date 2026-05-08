@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package structs
@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/hashicorp/nomad/client/lib/numalib"
+	"github.com/hashicorp/nomad/v2/client/lib/numalib"
 )
 
 const (

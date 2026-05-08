@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 // fake is a package that includes fake implementations of public interfaces
@@ -13,9 +13,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/hashicorp/nomad/plugins/base"
-	"github.com/hashicorp/nomad/plugins/csi"
-	"github.com/hashicorp/nomad/plugins/shared/hclspec"
+	"github.com/hashicorp/nomad/v2/plugins/base"
+	"github.com/hashicorp/nomad/v2/plugins/csi"
+	"github.com/hashicorp/nomad/v2/plugins/shared/hclspec"
 )
 
 var _ csi.CSIPlugin = &Client{}

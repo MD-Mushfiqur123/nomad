@@ -1,9 +1,9 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package config
 
-import sconfig "github.com/hashicorp/nomad/nomad/structs/config"
+import sconfig "github.com/hashicorp/nomad/v2/nomad/structs/config"
 
 // UsersConfig configures things related to operating system users.
 type UsersConfig struct {

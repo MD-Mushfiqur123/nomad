@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build linux
@@ -6,7 +6,7 @@
 package testutils
 
 import (
-	"github.com/hashicorp/nomad/client/lib/cgroupslib"
+	"github.com/hashicorp/nomad/v2/client/lib/cgroupslib"
 	"github.com/shoenig/test/must"
 )
 

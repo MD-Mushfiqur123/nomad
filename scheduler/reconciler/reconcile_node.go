@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package reconciler
@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/nomad/nomad/structs"
-	sstructs "github.com/hashicorp/nomad/scheduler/structs"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	sstructs "github.com/hashicorp/nomad/v2/scheduler/structs"
 )
 
 type NodeReconciler struct {

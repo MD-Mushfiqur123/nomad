@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package agent
@@ -18,14 +18,14 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-msgpack/v2/codec"
-	"github.com/hashicorp/nomad/acl"
 	"github.com/hashicorp/nomad/api"
-	cstructs "github.com/hashicorp/nomad/client/structs"
-	"github.com/hashicorp/nomad/command/agent/host"
-	"github.com/hashicorp/nomad/command/agent/monitor"
-	"github.com/hashicorp/nomad/command/agent/pprof"
-	"github.com/hashicorp/nomad/nomad"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/acl"
+	cstructs "github.com/hashicorp/nomad/v2/client/structs"
+	"github.com/hashicorp/nomad/v2/command/agent/host"
+	"github.com/hashicorp/nomad/v2/command/agent/monitor"
+	"github.com/hashicorp/nomad/v2/command/agent/pprof"
+	"github.com/hashicorp/nomad/v2/nomad"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 	"github.com/hashicorp/serf/serf"
 	"github.com/moby/moby/v2/pkg/ioutils"
 )

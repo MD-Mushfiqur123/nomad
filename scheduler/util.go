@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package scheduler
@@ -11,11 +11,11 @@ import (
 	log "github.com/hashicorp/go-hclog"
 	memdb "github.com/hashicorp/go-memdb"
 	"github.com/hashicorp/go-set/v3"
-	"github.com/hashicorp/nomad/helper"
-	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/nomad/scheduler/feasible"
-	"github.com/hashicorp/nomad/scheduler/reconciler"
-	sstructs "github.com/hashicorp/nomad/scheduler/structs"
+	"github.com/hashicorp/nomad/v2/helper"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	"github.com/hashicorp/nomad/v2/scheduler/feasible"
+	"github.com/hashicorp/nomad/v2/scheduler/reconciler"
+	sstructs "github.com/hashicorp/nomad/v2/scheduler/structs"
 )
 
 // readyNodesInDCsAndPool returns all the ready nodes in the given datacenters

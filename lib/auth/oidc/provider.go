@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package oidc
@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/cap/oidc"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 )
 
 // providerConfig returns the OIDC provider configuration for an OIDC

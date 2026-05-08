@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package getter
@@ -19,10 +19,10 @@ import (
 	"unicode"
 
 	"github.com/hashicorp/go-getter"
-	"github.com/hashicorp/nomad/client/interfaces"
-	"github.com/hashicorp/nomad/helper/subproc"
-	"github.com/hashicorp/nomad/helper/users"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/client/interfaces"
+	"github.com/hashicorp/nomad/v2/helper/subproc"
+	"github.com/hashicorp/nomad/v2/helper/users"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 )
 
 const (

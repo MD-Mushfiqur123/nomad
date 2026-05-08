@@ -1,10 +1,10 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package drivers
 
 import (
-	cstructs "github.com/hashicorp/nomad/client/structs"
+	cstructs "github.com/hashicorp/nomad/v2/client/structs"
 )
 
 // This files present an indirection layer to client structs used by drivers,

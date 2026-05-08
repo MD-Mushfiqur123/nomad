@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package devicemanager
@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/nomad/plugins/device"
-	psstructs "github.com/hashicorp/nomad/plugins/shared/structs"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	"github.com/hashicorp/nomad/v2/plugins/device"
+	psstructs "github.com/hashicorp/nomad/v2/plugins/shared/structs"
 )
 
 // UnknownDeviceError is returned when an operation is attempted on an unknown

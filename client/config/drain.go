@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package config
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/nomad/nomad/structs/config"
+	"github.com/hashicorp/nomad/v2/nomad/structs/config"
 )
 
 // DrainConfig describes a Node's drain behavior on graceful shutdown.

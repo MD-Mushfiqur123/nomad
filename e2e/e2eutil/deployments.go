@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package e2eutil
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/nomad/testutil"
+	"github.com/hashicorp/nomad/v2/testutil"
 )
 
 func WaitForLastDeploymentStatus(jobID, ns, status string, wc *WaitConfig) error {

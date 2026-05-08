@@ -1,12 +1,12 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package structs
 
 import (
 	"github.com/golang/protobuf/ptypes/wrappers"
-	"github.com/hashicorp/nomad/helper/pointer"
-	"github.com/hashicorp/nomad/plugins/shared/structs/proto"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
+	"github.com/hashicorp/nomad/v2/plugins/shared/structs/proto"
 )
 
 func ConvertProtoAttribute(in *proto.Attribute) *Attribute {

@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package client
@@ -22,12 +22,12 @@ import (
 	"github.com/hashicorp/go-msgpack/v2/codec"
 	"github.com/hpcloud/tail/watch"
 
-	"github.com/hashicorp/nomad/acl"
-	"github.com/hashicorp/nomad/client/allocdir"
-	sframer "github.com/hashicorp/nomad/client/lib/streamframer"
-	cstructs "github.com/hashicorp/nomad/client/structs"
-	"github.com/hashicorp/nomad/helper/pointer"
-	"github.com/hashicorp/nomad/nomad/structs"
+	"github.com/hashicorp/nomad/v2/acl"
+	"github.com/hashicorp/nomad/v2/client/allocdir"
+	sframer "github.com/hashicorp/nomad/v2/client/lib/streamframer"
+	cstructs "github.com/hashicorp/nomad/v2/client/structs"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
 )
 
 var (

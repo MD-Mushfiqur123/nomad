@@ -1,9 +1,9 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package interfaces
 
-import "github.com/hashicorp/nomad/nomad/structs"
+import "github.com/hashicorp/nomad/v2/nomad/structs"
 
 type EventEmitter interface {
 	EmitEvent(event *structs.TaskEvent)

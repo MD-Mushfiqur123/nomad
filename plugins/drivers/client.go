@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package drivers
@@ -12,15 +12,15 @@ import (
 	"github.com/LK4D4/joincontext"
 	"github.com/golang/protobuf/ptypes"
 	hclog "github.com/hashicorp/go-hclog"
-	cstructs "github.com/hashicorp/nomad/client/structs"
-	"github.com/hashicorp/nomad/helper/pluginutils/grpcutils"
-	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/nomad/plugins/base"
-	"github.com/hashicorp/nomad/plugins/drivers/fsisolation"
-	"github.com/hashicorp/nomad/plugins/drivers/proto"
-	"github.com/hashicorp/nomad/plugins/shared/hclspec"
-	pstructs "github.com/hashicorp/nomad/plugins/shared/structs"
-	sproto "github.com/hashicorp/nomad/plugins/shared/structs/proto"
+	cstructs "github.com/hashicorp/nomad/v2/client/structs"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/grpcutils"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	"github.com/hashicorp/nomad/v2/plugins/base"
+	"github.com/hashicorp/nomad/v2/plugins/drivers/fsisolation"
+	"github.com/hashicorp/nomad/v2/plugins/drivers/proto"
+	"github.com/hashicorp/nomad/v2/plugins/shared/hclspec"
+	pstructs "github.com/hashicorp/nomad/v2/plugins/shared/structs"
+	sproto "github.com/hashicorp/nomad/v2/plugins/shared/structs/proto"
 	"google.golang.org/grpc/status"
 )
 

@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build !ent
@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/nomad/testutil"
+	"github.com/hashicorp/nomad/v2/testutil"
 )
 
 // usable is used by the downloader to verify that we're getting the right

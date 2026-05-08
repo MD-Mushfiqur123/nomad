@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 // Package catalog is used to register internal plugins such that they can be
@@ -8,7 +8,7 @@ package catalog
 import (
 	"sync"
 
-	"github.com/hashicorp/nomad/helper/pluginutils/loader"
+	"github.com/hashicorp/nomad/v2/helper/pluginutils/loader"
 )
 
 var (

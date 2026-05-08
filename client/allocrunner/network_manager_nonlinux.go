@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 //go:build !linux
@@ -8,10 +8,10 @@ package allocrunner
 
 import (
 	hclog "github.com/hashicorp/go-hclog"
-	clientconfig "github.com/hashicorp/nomad/client/config"
-	"github.com/hashicorp/nomad/client/pluginmanager/drivermanager"
-	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/nomad/plugins/drivers"
+	clientconfig "github.com/hashicorp/nomad/v2/client/config"
+	"github.com/hashicorp/nomad/v2/client/pluginmanager/drivermanager"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
 )
 
 // noopNetworkManager implements the drivers.DriverNetoworkManager interface to

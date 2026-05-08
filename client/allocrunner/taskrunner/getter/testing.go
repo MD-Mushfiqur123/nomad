@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package getter
@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	cconfig "github.com/hashicorp/nomad/client/config"
-	"github.com/hashicorp/nomad/helper/pointer"
-	"github.com/hashicorp/nomad/helper/testlog"
-	sconfig "github.com/hashicorp/nomad/nomad/structs/config"
+	cconfig "github.com/hashicorp/nomad/v2/client/config"
+	"github.com/hashicorp/nomad/v2/helper/pointer"
+	"github.com/hashicorp/nomad/v2/helper/testlog"
+	sconfig "github.com/hashicorp/nomad/v2/nomad/structs/config"
 	"github.com/shoenig/test/must"
 )
 

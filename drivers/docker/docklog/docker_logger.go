@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package docklog
@@ -19,7 +19,7 @@ import (
 	"github.com/moby/moby/client"
 	mclient "github.com/moby/moby/client"
 
-	"github.com/hashicorp/nomad/client/lib/fifo"
+	"github.com/hashicorp/nomad/v2/client/lib/fifo"
 )
 
 // DockerLogger is a small utility to forward logs from a docker container to a target

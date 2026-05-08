@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package mock
@@ -10,8 +10,8 @@ import (
 	"time"
 
 	hclog "github.com/hashicorp/go-hclog"
-	bstructs "github.com/hashicorp/nomad/plugins/base/structs"
-	"github.com/hashicorp/nomad/plugins/drivers"
+	bstructs "github.com/hashicorp/nomad/v2/plugins/base/structs"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
 )
 
 func runCommand(c Command, stdout, stderr io.WriteCloser, cancelCh <-chan struct{}, pluginExitTimer <-chan time.Time, logger hclog.Logger) *drivers.ExitResult {

@@ -1,4 +1,4 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package taskenv
@@ -13,12 +13,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/nomad/client/lib/idset"
-	"github.com/hashicorp/nomad/helper"
-	hargs "github.com/hashicorp/nomad/helper/args"
-	"github.com/hashicorp/nomad/helper/escapingfs"
-	"github.com/hashicorp/nomad/nomad/structs"
-	"github.com/hashicorp/nomad/plugins/drivers"
+	"github.com/hashicorp/nomad/v2/client/lib/idset"
+	"github.com/hashicorp/nomad/v2/helper"
+	hargs "github.com/hashicorp/nomad/v2/helper/args"
+	"github.com/hashicorp/nomad/v2/helper/escapingfs"
+	"github.com/hashicorp/nomad/v2/nomad/structs"
+	"github.com/hashicorp/nomad/v2/plugins/drivers"
 	"github.com/zclconf/go-cty/cty"
 )
 

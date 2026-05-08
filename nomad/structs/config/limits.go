@@ -1,9 +1,9 @@
-// Copyright IBM Corp. 2015, 2025
+// Copyright IBM Corp. 2015, 2026
 // SPDX-License-Identifier: BUSL-1.1
 
 package config
 
-import "github.com/hashicorp/nomad/helper/pointer"
+import "github.com/hashicorp/nomad/v2/helper/pointer"
 
 const (
 	// LimitsNonStreamingConnsPerClient is the number of connections per
